@@ -1,0 +1,108 @@
+body {
+    background-image: linear-gradient(0deg, rgba(255, 0, 149, 0.178), rgba(255, 0, 149, 0.191)), url("./images/land-img.jpg");
+    background-size: cover;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    color: rgb(0, 255, 213);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+.contact {
+    color: white;
+    line-height: 10px;
+    border-bottom: 3px solid rgb(0, 255, 213);
+}
+
+
+
+nav a {
+    color: rgb(0, 255, 213);
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#aside .social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    list-style-type: none;
+    line-height: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}  
+
+#aside li a {
+    color: white;
+    font-size: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.text h1 {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+}
+
+.button-wrapper .button {
+    background-color: rgb(0, 255, 213);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: teal;
+    color: white;
+}
+
+#footer .bottom {
+    position: relative;
+    margin-top: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: bottom;
+    color: rgb(194, 204, 204);
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
