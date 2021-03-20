@@ -104,32 +104,3 @@ nav ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width: 414px) {
-    body {
-        background-repeat: no-repeat;
-        padding-bottom: 140px;
-        overflow: hidden;
-    }
-
-    #footer .bottom {
-        padding-top: 120px;
-    }
-}
-
-@media screen and (max-width:736px) and (min-width:415px) {
-    .text h1 {
-        font-size: 60px;
-    }
-
-    .button-wrapper .button {
-        padding: 10px 26px;
-        margin-top: 20px;
-    }
-
-    #footer .bottom {
-        margin-top: 120px;
-    }
-}
-
-
-
