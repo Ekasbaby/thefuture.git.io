@@ -102,3 +102,29 @@ nav ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+@media screen and (max-width: 800px) {
+    .text h1 {
+        font-size: 60px;
+        margin-left: 30px;
+        margin-top: -5px;
+    }
+
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 16px;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+
+    .contact {
+        font-size: 15px;
+    }
+
+    .button-wrapper .button {
+        padding: 13px 25px;
+    }
+}
+
