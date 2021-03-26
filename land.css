@@ -102,7 +102,7 @@ nav ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
     .text h1 {
         font-size: 60px;
         margin-left: 30px;
